@@ -1,0 +1,467 @@
+﻿#strona 
+{
+    width: 978px;
+    height: 100%;
+    margin: 10px auto;
+}
+
+#naglowek 
+{
+    height: 220px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#stopka 
+{
+    font-style: italic;
+    text-align: right;
+    background-color: #C10F33;
+    height: 22px;
+    padding-right: 10px;
+}
+
+#tlo 
+{
+    height: 100%;
+    min-height: 620px;
+    background-color: #020202;
+    color: #FEFEFE;
+}
+
+#zawartosc 
+{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.odsylacz
+{
+    width: auto;
+    height: 23px;
+}
+
+div.tytul
+{
+    width: 304px;
+    height: 54px;
+    text-align: center;
+    float: right;
+    vertical-align: central;
+    margin-top: 100px;
+    margin-right: 240px;
+    position: relative;
+}
+
+div.tytul_dlugi
+{
+    width: 304px;
+    height: 54px;
+    text-align: center;
+    float: right;
+    vertical-align: central;
+    margin-top: 90px;
+    margin-right: 240px;
+    position: relative;
+}
+
+
+h1
+{
+    text-align: center;
+    font-size: 22px;
+    margin-right: 400px;
+    margin-left: 100px;
+}
+
+h1.small 
+{
+    line-height: 20px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h2 
+{
+    text-align: center;
+    font-size: 26px;
+    text-decoration-line: underline;
+}
+
+h3 
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+h4 
+{
+    text-align: center;
+    font-size: 23px;
+}
+
+
+p 
+{
+    font-size: 16px;
+    color: #FEFEFE;
+}
+
+p.polecenie
+{
+    font-weight: bold;
+}
+
+p.spis
+{
+    text-align: center;
+    vertical-align: central;
+}
+
+p.info
+{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+p.zrodlo
+{
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+
+span
+{
+    font-weight: bold;
+}
+
+span.kolor
+{
+    color: #C10F33;
+}
+
+span.mail
+{
+    font-style: italic;
+}
+
+
+img.flaga 
+{
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+
+img.spis
+{
+    width: 250px;
+    height: 250px;
+    margin-left: 70px;
+    border: 2px solid #FEFEFE;
+    text-align: center;
+}
+
+img.okladka
+{
+    float: right;
+    width: 270px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: 20px;
+    border: 2px solid #FEFEFE;
+}
+
+img.znak_zapytania 
+{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-right: 75px;
+    margin-top: 25px;
+    animation-name: znak_zapytania;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+}
+
+img.zrodlo
+{
+    width: 100px;
+    height: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+img.zrodlo:hover
+{
+    width: 220px;
+    height: 220px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img.zrodlo_flaga 
+{
+    width: 100px;
+    height: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+img.zrodlo_flaga:hover
+{
+    width: 220px;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+svg 
+{
+    height: 100px;
+    width: 120px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    animation: koperta 4s linear infinite;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+
+ol 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    height: 2em;
+    line-height: 2em;
+}
+
+ol a 
+{
+    display: block; 
+    text-decoration: none;
+    color: #FEFEFE;
+    font-weight: bold;
+}
+
+ol > li 
+{
+    float: left;
+    background-color: #020202;
+    width: 194px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 2em;
+}
+
+ol > li:first-child 
+{
+   margin-left:0;
+}
+
+ol > li > a:hover 
+{
+    color: #020202;
+}
+
+ol > li:hover
+{
+    background-color: #C10F33;
+}
+
+ol > li:hover > a
+{    
+    color: #020202;
+}
+
+ol > li:hover > ul 
+{
+    display: block;
+}
+
+ol > li > ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+ol > li > ul > li 
+{
+     position: relative;
+     background-color: #FEFEFE;
+}
+
+ol > li > ul > li:hover
+{
+    background-color: #013378;
+}
+
+ol > li > ul > li > a
+{
+  border: 1px solid #020202;
+  color: #020202;
+}
+
+ol > li > ul > li > a:hover 
+{
+    color: #FEFEFE;
+}
+
+
+table 
+{
+    text-align: center;
+    vertical-align: central;
+    width: 455px;
+    height: 455px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+table a
+{
+    display: block; 
+    text-decoration: none;
+    font-weight: bold;
+    color: #FEFEFE;
+}
+
+th 
+{
+    font-weight: bold;
+    border: 2px solid #FEFEFE;
+    width: 65px;
+    height: 65px;
+    background-color: #FEFEFE;
+    color: #020202;
+}
+
+td
+{
+    border: 2px solid #FEFEFE;
+    width: 65px;
+    height: 65px;
+    background-color: #020202;
+}
+
+td.niebieski 
+{
+    background-color: #013378;
+}
+
+td.czerwony 
+{
+    background-color: #C10F33;
+}
+
+
+@keyframes koperta
+{
+    0%   {background: #020202;}
+    50%  {background: #C10F33;}
+    100% {background: #020202;}
+}
+
+@keyframes znak_zapytania
+{
+    0% {transform:rotate(0)}
+    100% {transform:rotate(360deg)}
+}
+
+
+li.lista 
+{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    font-size: 17px;
+}
+
+a.czysty
+{
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    height: 50px;
+    color: #FEFEFE;
+}
+
+fieldset 
+{
+    border: 2px solid #FEFEFE;
+    height: 50px;
+    width: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #020202;
+    background-color: #C10F33;
+    text-align: center;
+}
+
+fieldset.wanna_one
+{
+    height: 70px;
+}
+
+fieldset:hover 
+{
+    color: #FEFEFE;
+    font-weight: bolder;
+    background-color: #013378;
+}
+
+textarea 
+{
+    width: 400px;
+    height: 150px;
+}
+
+button 
+{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #FEFEFE;
+    color: #020202;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 310px;
+}
+
+footer:before
+{
+    content: "Autor: ";
+    font-weight: bold;
+}
